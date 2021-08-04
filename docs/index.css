@@ -1,0 +1,171 @@
+img {
+    height: 500px;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-me-header {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.blog-header {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.online-resume-header {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.welcome-1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.welcome-2 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.welcome-3 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.blogpost-kickstart-coding {
+    
+    width: 500px;
+    color: black;
+    font-size: 21px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.blogpost-life-update {
+    
+    width: 500px;
+    color: black;
+    font-size: 21px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    color: blue;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p strong, h2 {
+    color: rgb(156, 109, 48);
+    margin-bottom: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.info {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.skills-list {
+    font-weight: bold;
+    margin-top: -10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hathaway-dinwiddie {
+    font-weight: bold;
+    margin-top: -10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.work-experience-list {
+    margin-bottom: -12px;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.dsy {
+    font-weight: bold;
+    margin-top: -10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.ea-DSY-list {
+    margin-bottom: -12px;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cty strong {
+    color: black;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cty-list {
+    margin-bottom: -12px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.kickstart-coding strong {
+    color: black;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.kickstart-coding-list {
+    margin-bottom: -12px;    
+    font-family: 'Work Sans', sans-serif;
+}
+
+.interest-activities, ul {
+    margin-top: 0px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.education-list {
+    font-weight: bold;
+    margin-top: -10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about-me-1 {
+    color: black;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about-me-2 {
+    color: black;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+}
