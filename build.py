@@ -5,11 +5,12 @@ def read_base_html():
 	return base_html
 	
 
-def title():
+def generate_pages(lists):
 	base = read_base_html()
-	title = base.replace("{{title}}")
-	return title
-
+	for page in lists:
+		html = open(page['filename']).read()
+		page_html = base.replace("{{content}}", html)
+		open(page['output'], "w+").write(page_html)
 
 
 pages = [
@@ -36,12 +37,10 @@ pages = [
 
 
 def main():
-	base = read_base_html()
+#   base = read_base_html()
 #	blog = open("./contents/blog.html").read()
 #	index = open("./contents/index.html").read()
 #	resume = open("./contents/online_resume.html").read()
-
-	#title = title()
 
 #	blog_html = base.replace("{{content}}", blog)
 #	index_html = base.replace("{{content}}", index)
@@ -50,10 +49,16 @@ def main():
 #	open("docs/index.html", "w+").write(index_html)
 #	open("docs/online_resume.html", "w+").write(resume_html)
 
+
 	for page in pages:
-		html = open(page['filename']).read()
-		page_html = base.replace("{{content}}", html)
-		open(page['output'], "w+").write(page_html)
+		base = read_base_html()
+		title = base.replace("{{title}}", page['title'])
+		print(title)
+
+	#basically, all of the "hard-code" above is simplified and 
+	#goes into the generate_pages function
+	generate_pages(pages)
+		
 	
 	
 
