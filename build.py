@@ -32,11 +32,10 @@ def generate_pages(lists):
 	for page in lists:
 		html = open(page['filename']).read()
 		template = Template(base)
-		template.render(
+		page_html = template.render(
 			content = html,
 			title = page["title"]
 		)
-		page_html = base.replace("{{content}}", html)
 		open(page['output'], "w+").write(page_html)
 
 
@@ -64,6 +63,3 @@ def main():
 
 
 main()
-
-
-
